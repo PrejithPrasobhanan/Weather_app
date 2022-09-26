@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://kit.fontawesome.com/0ec408950a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="full">
+        <div class="location">
+            <h1><a href="">{{data}},{{cou}}<i class="fa-solid fa-location-dot"></i></a></h1>
+            <p class="dig"><a href="">{{temp}}°C</a></p>
+            <p class="sunny"><a href="">{{atm}}</a></p>
+        </div>
+        <div class="drop">
+            <a href=""><i class="fa-solid fa-droplet"></i>{{hum}}%</a>
+            <a href=""><i class="fa-sharp fa-solid fa-gauge-simple"></i>{{pres}}mBar</i></a>
+            <a href=""><i class="fa-solid fa-wind"></i>{{speed}}km/hr</a>
+        </div>
+        
+        <h3 class="to p-12">Today</h3>
+        <div class="time"> 
+            <div><h4>10AM</h4><i class="fa-sharp fa-solid fa-cloud-sun"></i><a href="">19°C</a></div>
+            <div><h4>11AM</h4><i class="fa-sharp fa-solid fa-sun"></i><a href="">21°C</a></div>
+            <div><h4>12AM</h4><i class="fa-sharp fa-solid fa-cloud-sun"></i></i><a href="">22°C</a></div>
+            <div><h4>1PM</h4><i class="fa-sharp fa-solid fa-cloud"></i><a href="">18°C</a></div>
+            <div><h4>2PM</h4><i class="fa-sharp fa-solid fa-cloud"></i><a href="">17°C</a></div>
+            
+        </div>
+        <div class="day1">
+            <div class="day"><h3>Monday</h3> <a href="" class="st1">21°C</a> <a href="" class="st2">27°C</a></div></div>
+            <div class="day"><h3>Tuesday</h3> <a href="" class="st1">24°C</a> <a href="" class="st2">29°C</a></div></div>
+            <div class="day"><h3>Wednesday</h3> <a href="" class="st1">26°C</a> <a href="" class="st2">32°C</a></div></div>
+            <div class="day"><h3>Thursday</h3> <a href="" class="st1">20°C</a> <a href="" class="st2">26°C</a></div></div>
+            <div class="day"><h3>Friday</h3> <a href="" class="st1">23°C</a> <a href="" class="st2">27°C</a></div></div>
+            <div class="day"><h3>Saturday</h3> <a href="" class="st1">28°C</a> <a href="" class="st2">33°C</a></div></div>
+            <div class="day"><h3>Sunday</h3> <a href="" class="st1">29°C</a> <a href="" class="st2">31°C</a></div></div>
+            
+        </div>
+        <div class="hill">
+            <img src="../static/images/hill.png" alt="">
+        </div>
+
+
+</section>
+</body>
+</html>

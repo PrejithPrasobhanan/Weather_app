@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+}
+.full{
+    background-color: rgb(37, 37, 37);
+    height: 808px;
+    width: 347px;
+    margin: 50px auto; 
+
+}
+.full2{
+    background: url(./images/phonesize.jpeg);
+    background-size: cover;
+    height: 758px;
+    width: 347px;
+    margin: 50px auto; 
+
+}
+.p-12{
+    padding: 12px;
+}
+.full a{
+    text-decoration: none
+
+}
+.location{
+    padding-top: 12px;
+}
+.location a{
+    color: white;
+    padding: 13px;
+}
+.location a i{
+    color:  rgb(176, 115, 233);
+}
+
+.to{
+    color: white;
+    margin: 15px;
+
+}
+.dig{
+    font-size: 60px;
+}
+.time{
+    display: flex;
+    color: white;
+    gap: 24px;
+    margin: 30px auto; 
+    padding: 12px;
+}
+.time a{
+    color: white;
+}
+.sunny{
+    background-color: rgb(176, 115, 233);
+    border-radius: 8px;
+    width: 138px;
+    margin: 17px;
+    padding: 6px;
+    font-size: 18px;
+}
+.drop a{
+    color:white;
+    padding: 15px;
+}
+
+.drop a i{
+    color:rgb(176, 115, 233);
+}
+.drop{
+    margin:30px auto;
+}
+.day{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    margin: 9px;
+}
+.day h3 {
+    color: white;
+}
+
+   
+
+
+.st1{
+    color:white;
+}
+.st2{
+    color: rgb(145, 145, 145);
+}
+.hill img{
+    position: absolute;
+    margin-top: 11px;
+    width: 347px;
+    height: 160px;
+    
+
+}
+.time i{
+    color:rgb(176, 115, 233);
+
+}
+.inputs{
+    text-align: center;
+    justify-content: center;
+    
+}
+.inputs input[type="text"] 
+{
+    height: 47px;
+    width: 280px;
+    background: #212121;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #c2c2c2;
+    border-radius: 45px;
+    margin-right:4px;
+    margin-top: 235px;
+}
+.add
+{
+   
+    background: rgb(176, 115, 233);
+    font-weight: bold;
+    color: white;
+    font-size: 26px;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 9px
+}
+.name{
+    text-align: center;
+    font-size: 30px
+}
+.name b{
+    color: rgb(176, 115, 233);
+    font-size: 60px;
+}
+.name h2{
+    color: white;
+}
+
+
+.press{
+    color: white;
+    text-align: center;
+}
